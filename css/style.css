@@ -1,0 +1,419 @@
+.cb {
+	clear:both;
+	display: block;
+}
+.navbar-brand {
+	padding-top: 0;
+	padding-bottom: 0;
+	min-height: 0;
+	width:60%;
+}
+
+
+
+.navbar-brand,
+.navbar-nav {
+   
+    padding-top: 0;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover ,
+.navbar-default .navbar-nav > li > a:active {
+	background-color: #999;
+}
+
+
+.Info >li > a {
+	color:red !important;
+	font-family: Myriad Pro;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.header{
+  
+  	overflow: hidden;
+    position: relative;
+}
+
+.carousel-caption {
+	text-align: center;
+	  white-space: pre-line;
+}
+
+.carousel-caption h1 {
+		
+     margin:0 auto;
+  	 display: inline-block;
+  	font-family: Myriad Pro;
+   	max-width: 100%;
+     text-align:center;
+}
+
+.carousel-caption h4 {
+		
+     margin:0 auto;
+  	 display: inline-block;
+  	font-family: Myriad Pro;
+   	max-width: 100%;
+     text-align:center;
+    font-weight:100;
+}
+
+
+.button {
+	margin-top: 30px;
+	background-color: #996666;
+	color:white;
+	border-radius: 0;
+	border-color: transparent;
+	font-family: Myriad Pro;
+	width:20%;
+}
+
+.highlight h1{
+	font-family:PlayfairDisplay;
+	font-weight: bolder !important;
+	margin-bottom: 0;
+	color:#333333;
+}
+
+.highlight {
+	padding-right: 0;
+	padding-left: 0;
+}
+hr {
+	width:15%;
+	text-align: left;
+	display: inline-block;
+	border-top: 7px solid red;
+	margin: 0;
+}
+#Ghr {
+	width:20%;
+	text-align: left;
+	display: inline-block;
+	border-top: 7px solid red;
+}
+
+.left-part{
+	margin: 0;
+	padding: 0;
+	
+
+}
+.about-amulsar {
+	white-space: pre-line;
+	font-size: 20px;
+	color: #996666;
+	font-family: Myriad Pro;
+	border-bottom: 2px solid #cccccc;
+}
+.last {
+	white-space: pre-line;
+	font-size: 20px;
+	color: #4285f4;
+	font-family: Myriad Pro;
+}
+
+
+.left-part span {
+	font-weight: bold;
+	padding-bottom: 10px
+}
+
+.left-part h1 {
+	font-family: Myriad Pro;
+	color: #333333;
+	font-size: 36px;
+}
+
+.image-st {
+	padding: 0;
+}
+.pad {
+	padding-right: 0;
+	padding-bottom: 0;
+}
+.cont-p {
+	white-space: pre-line;
+	font-size: 24px;
+	color: #996666;
+	font-family: Myriad Pro;
+	margin-bottom: 0;
+
+}
+
+.inside {
+	white-space: pre-line;
+	font-size: 12px;
+	font-family: Myriad Pro;
+	margin-bottom: 0;
+}
+.border-bot {
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.last-pad {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    width: 6%;
+    height: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ddd;
+    background-color:black;
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+.under-video{
+	font-size: 18px;
+	font-family: Myraid Pro;
+	color:#996666;
+	padding-bottom:15px;
+
+}
+
+.col-md-4{
+	padding-bottom: 10px;
+}
+
+.footer {
+	background-color: #ffffff;
+}
+
+
+.list-unstyled li {
+	color:#996666;
+	font-size: 20px;
+	font-family: Myriad Pro;
+	padding-bottom: 10px;
+}
+
+.list-unstyled li >a {
+	color:#999999;
+	font-size: 15px;
+}
+.list-unstyled li >a:hover {
+	text-decoration:none;
+}
+
+.social{
+	font-family: Myriad Pro;
+	font-weight: 900;
+	font-size: 50px;
+	margin: 0;
+
+	
+}
+
+.btn-social{
+	display: inline-block;
+	width:10px;
+	color:red;
+	padding-right: 20px;
+}
+
+
+
+.new{
+	white-space: pre-line;
+	font-size: 12px;
+	font-family: Myriad Pro;
+	margin-bottom: 0;
+	
+}
+
+.form-control {
+	margin-top: 30px;
+	display: inline-block;
+	width: 70%;
+}
+
+.btn-default , .btn-default:hover{
+	background-color: red;
+	color:white;
+}
+
+
+.last-hr{
+	width:100%;
+	border-top: 1px solid #cccccc;
+	margin: 0;
+}
+
+.insidee {
+	font-size:20px;
+	white-space: pre-line;
+}
+
+
+.bg{
+	background-color:#d9edf7;
+
+}
+.in {
+white-space: pre-line;
+font-size:15px;
+font-weight: bold;
+}
+
+.in-color{
+	font-size:15px;
+	color:black;
+}
+
+.navbar-toggle{
+	margin-right:30px;
+}
+
+.navbar-brand img{
+	width:25%;
+}
+
+
+.bottom-logo{
+	width:35%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav, .navbar-nav {
+	display: inline-table;
+}
+
+.navbar-brand img{
+
+		width:15%;
+	}
+
+
+	.carousel-caption h1 {
+
+		font-size: 20px;
+	}
+
+	.carousel-caption{
+		bottom:0px;
+		
+	}
+
+
+
+	.carousel-caption h4{
+		font-size: 20px;
+	}
+
+.carousel-caption .btn {
+		margin-top: 8px;
+		width:30%;
+	}
+
+
+}
+
+
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+	.navbar-brand img{
+
+		width:15%;
+	}
+
+
+	.carousel-caption h1 {
+
+		font-size: 12px;
+	}
+
+	.carousel-caption{
+		bottom:0px;
+		padding-bottom: 0px;
+	}
+
+
+
+	.carousel-caption h4{
+		font-size: 12px;
+	}
+
+.carousel-caption .btn {
+		margin-top: 8px;
+		width:30%;
+	}
+
+
+}
+
+
+@media (max-width: 480px) {
+
+	.carousel-caption h1 {
+
+		font-size: 8px;
+	}
+
+.carousel-caption{
+		bottom:0px;
+	}
+
+
+	.navbar-brand img{
+
+		width:30%;
+	}
+
+
+	.carousel-caption{
+		bottom:0px;
+		padding-bottom: 0px;
+	}
+
+	.carousel-caption h4{
+		font-size: 8px;
+	}
+
+	.carousel-caption .btn {
+		margin-top: 3px;
+		width:40%;
+	}
+
+}
+ 
+
+ 
