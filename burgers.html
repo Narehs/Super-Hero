@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html>
 <head>
 <title>
@@ -10,8 +10,10 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/flexslider.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/contactus.css">
+    <link rel="stylesheet" type="text/css" href="css/burgers.css">
      <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css?v=1.0.7"/>
 
        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
      
@@ -27,7 +29,11 @@
     <script src="js/jquery.flexslider.js"></script>
     <script type="text/javascript" src="js/owl.carousel.js"></script>
     <script type="text/javascript" src="js/bootstrap-select.js"></script>
-     <script type="text/javascript" src="js/aboutus.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+  
+    <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+     <script type="text/javascript" src="js/burger.js"></script>
 </head>
 <body>
 <div class = "back">
@@ -53,8 +59,8 @@
                     <ul class=" Info nav navbar-nav pull-right">
                     <li class="nav"> <a href="index.html">Home</a></li>
                         <li class="nav"> <a href="about us.html">About Us </a></li>
-                        <li class="nav"> <a href=".">Contact Us </a></li>
-                         <li class="nav"> <a href="burgers.html">Burgers</a></li>
+                        <li class="nav"> <a href="contactus.html">Contact Us </a></li>
+                         <li class="nav"> <a href=".">Burgers</a></li>
                              
                     </ul>
             </div>
@@ -63,21 +69,83 @@
         <span class = "cb"></span>
     </nav>
 
-   <div class ="container">
-      <div class="row">
-          <div class="col-md-6" id="map"></div>
-          <div class="col-md-5" style="padding-top:50px">
-            <h2>Our Location</h2>
-            <div>
-            <strong>Olav Tryggvasons Gate 1
-            Trondheim, Norway<br>
-                <abbr>P:</abbr> Call 73 51 33 40
-           </div>
-          </div>
-          
-      </div>
-      </div>
+<div class ="container pp">
+ <div class="row left-part ">
+          <div class="left-part  border-bot col-md-12">
+               <h1>Burger gallery<br><hr> </h1>
+                <div class="col-md-3">
 
+                 <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/1.jpg">
+                     <img src="./images/1.jpg" class="img-responsive">
+
+                    
+                    <p class="text-st"> <a href="#">Some text for ingerdient</a></p>
+                </a>
+                    
+
+
+                </div>
+                <div class="col-md-3">
+                   <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/2.jpg">
+                     <img src="./images/2.jpg" class="img-responsive">
+
+                    
+                    <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                  </a>
+                </div>
+                <div class="col-md-3">
+                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/3.jpg">
+                     <img src="./images/3.jpg" class="img-responsive">
+
+                   
+                    <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                </a>
+                </div>
+                 
+                <div class="col-md-3">
+                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/4.jpg">
+                     <img src="./images/4.jpg" class="img-responsive">
+
+                    
+                   <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                </a>
+                </div>
+                <div class="col-md-3">
+                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/1.jpg">
+                     <img src="./images/1.jpg" class="img-responsive">
+
+                   
+                    <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                </a>
+                </div>
+                 <div class="col-md-3">
+                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/2.jpg">
+                     <img src="./images/2.jpg" class="img-responsive">
+
+                    
+                    <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                </a>
+                </div>
+                 <div class="col-md-3">
+                     <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/3.jpg">
+                     <img src="./images/3.jpg" class="img-responsive">
+
+                    
+                    <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                </a>
+                </div>
+                 <div class="col-md-3">
+                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="./images/4.jpg">
+                     <img src="./images/4.jpg" class="img-responsive">
+
+                    
+                    <p class="text-st"> <a href="#">Some text for ingredient</a></p>
+                </a>
+                </div>
+           </div>
+      
+       </div>
+       </div>
 <div class="bg">
 <div class="container">    
 <div class="row" style="padding-top:50px">
@@ -148,7 +216,5 @@
 </div>
 
 
-<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjUwh9MmShVFEvDJOrlpW7zODzX94cSbw&amp;callback=initMap">
-</script>
- </body>
 
+ </body>
